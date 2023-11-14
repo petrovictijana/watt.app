@@ -1,0 +1,43 @@
+/* 
+#1C315E -tamno plava
+#3E5483 -svetlo plava
+#9FA3AA - siva
+#FFFFFF -bela
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(224 249 254);
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: #727272;
+    min-height: 100%;
+    overflow: auto !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.modal-open {
+    padding-right: 0px!important;
+}
+.modal{
+    --bs-modal-margin: 15.75rem!important;
+}
+
+@media (min-width: 300px) {
+    .modal{
+        margin-top: 150px;
+        --bs-modal-margin: 3rem!important;
+    }
+    
+}

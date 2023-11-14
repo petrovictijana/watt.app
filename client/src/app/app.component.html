@@ -1,0 +1,10 @@
+<div *ngIf="(islogg |async)">
+
+
+    <app-navbar ></app-navbar>
+    <app-sidebar ></app-sidebar>
+
+</div>
+<div *ngIf="!(islogg |async)">
+    <router-outlet></router-outlet>
+</div>
